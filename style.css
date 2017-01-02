@@ -28,10 +28,10 @@ body {
 
 .ssm-container {
     position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    width: x;
-    height: y;
-    margin: auto;  //关键属性
+    top: 50%; left: 50%;
+    width: x; height: y;
+    transform: translate(-50%, -50%);
+    animation: 3s zoomIn;
 }
 
 .ssm-img img{

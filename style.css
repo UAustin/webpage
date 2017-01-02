@@ -17,13 +17,21 @@ body {
   }
 }
 
-.ssm-container {
-    position:absolute;
+/*.ssm-container {
+    position: absolute;
     top:50%;
-    margin-top:-100px;
+    margin-top: -100px;
     left:50%;
     margin-left:-150px;
     animation: 3s zoomIn;
+}*/
+
+.ssm-container {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: x;
+    height: y;
+    margin: auto;  //关键属性
 }
 
 .ssm-img img{

@@ -34,7 +34,8 @@ body {
 
 .ssm-contents:hover {
     color: blue;
-    text-decoration:underline;
+    /*text-decoration:underline;*/
+    /*text-decoration-color: red;*/
 }
 
 img{

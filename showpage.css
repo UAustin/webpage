@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    height:100%;
+    width:100%;
+    background-color: #DCFAF8;
+    color: #lightblue;
+}
+
+.pinji-container {
+    display: inline-block;
+}
+
+.pj-title {
+    font-size: 50px;
+    margin: 20px 20px;
+}
+
+a:hover {
+    color: blue;
+}
+
+.footer {
+    margin: 20px 20px;
+}

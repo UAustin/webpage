@@ -3,7 +3,7 @@ body {
     background-color: #F5F6EB;
     height:100%;
     width:100%;
-    color: #34352C;
+    color: #33333d;
 }
 
 @keyframes zoomIn {
@@ -30,7 +30,13 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    /*filter: grayscale(100%);*/
 }
+
+/*.ssm-img:hover {
+    filter:none;
+    background-color: red;
+}*/
 
 .ssm-contents:hover {
     color: blue;

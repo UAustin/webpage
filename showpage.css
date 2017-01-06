@@ -1,18 +1,70 @@
 body {
     text-align: center;
-    height:100%;
     width:100%;
-    background-color: #DCFAF8;
-    color: #lightblue;
+    height:100%;
+    background-color: #F5F6EB;
+    font-style: italic;
+    /*font-weight:bold;*/
+    font-family:"黑体";
 }
 
 .pinji-container {
-    display: inline-block;
+    position: absolute;
+    top:50%;
+    margin-top: -100px;
+    left:50%;
+    margin-left:-300px;
+
 }
 
 .pj-title {
     font-size: 50px;
     margin: 20px 20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.pj-nav-link {
+    /* 设置 inlin-block, 这样才能设置 a 的尺寸和 padding */
+    display: inline-block;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    height: inherit;
+    float: left;
+    border-radius: 5%;
+}
+
+/* 鼠标移上去的时候, 设置新颜色 */
+.pj-nav-link:hover {
+    background-color: lightblue;
+    color: blue;
+    /* 鼠标指针变为链接手 */
+    cursor: pointer;
+}
+
+.pj-footer-link {
+    /* 设置 inlin-block, 这样才能设置 a 的尺寸和 padding */
+    display: inline-block;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    height: inherit;
+    float: center;
+
+}
+
+/* 鼠标移上去的时候, 设置新颜色 */
+.pj-footer-link:hover {
+    background-color: lightblue;
+    color: blue;
+    /* 鼠标指针变为链接手 */
+    cursor: pointer;
+    border-bottom: 2px solid;
+    border-radius: 5%;
 }
 
 a:hover {
